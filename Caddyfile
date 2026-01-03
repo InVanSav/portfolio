@@ -1,0 +1,6 @@
+portfolio.example.com {
+    root * /srv/portfolio
+    file_server
+    encode gzip
+    try_files {path} /index.html
+}
