@@ -1,0 +1,50 @@
+.viewer {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.viewer__img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.viewer__close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.viewer__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 48px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  padding: 12px;
+}
+
+.viewer__arrow.left {
+  left: 20px;
+}
+
+.viewer__arrow.right {
+  right: 20px;
+}
+
+/* 📱 мобилки */
+@media (max-width: 600px) {
+  .viewer__arrow {
+    font-size: 36px;
+  }
+}

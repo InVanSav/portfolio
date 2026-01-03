@@ -1,0 +1,43 @@
+.project {
+  margin-bottom: 48px;
+}
+
+.project__title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.project__description {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.project__images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.project__image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.project__image:hover {
+  transform: scale(1.03);
+}
+
+/* 📱 мобильные */
+@media (max-width: 600px) {
+  .project__title {
+    font-size: 20px;
+  }
+
+  .project__images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
