@@ -1,4 +1,4 @@
-import projectsData from "../assets/projects/projects.json"
+import projectsData from "../assets/projects.json"
 import { ProjectCard } from "../components/ProjectCard"
 import type { Project } from "../types/Project"
 
