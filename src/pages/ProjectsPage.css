@@ -9,9 +9,7 @@
 }
 
 .contacts-list {
-  list-style: none;
   padding: 0;
-  margin: 0;
 
   display: flex;
   gap: 12px;
@@ -53,4 +51,16 @@
 .contact-item svg {
   font-size: 18px;
   flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .contacts-list {
+    flex-direction: column;
+  }
+
+  .contact-item {
+    width: inherit;
+    align-items: center;
+    justify-content: center;
+  }
 }
