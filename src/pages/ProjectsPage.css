@@ -4,58 +4,72 @@
   padding: 24px;
 }
 
+/* Контакты */
 .contacts-block {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 40px;
-  padding: 16px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
 }
 
 .contacts-block h2 {
-  margin-bottom: 12px;
   font-size: 24px;
 }
 
+/* Список */
 .contacts-list {
   list-style: none;
   padding: 0;
-  font-size: 18px;
-  line-height: 1.6;
+  margin: 0;
+  width: 100%;
+
   display: flex;
-  gap: 8px;
+  gap: 12px;
 }
 
-.contacts-list a {
-  color: #0077cc;
-  text-decoration: none;
-}
-
-.contacts-list a:hover {
-  text-decoration: underline;
-}
-
+/* Элемент */
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+
+  width: 100%;
+  justify-content: center;
+  background: #fafafa;
 }
 
+/* Ссылки */
+.contact-item a {
+  color: #0077cc;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Мобильная версия */
 @media (max-width: 480px) {
   .projects-page {
     padding: 16px;
   }
 
-  .contacts-line {
+  .contacts-list {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
   }
 
-  .contacts-line a {
+  .contact-item {
+    justify-content: flex-start;
+  }
+
+  .contact-item a {
     font-size: 16px;
   }
 }

@@ -10,7 +10,6 @@ export function ProjectsPage() {
   return (
     <div className="projects-page">
       <div className="contacts-block">
-        <h2>Контакты</h2>
         <ul className="contacts-list">
           <li className="contact-item">
             <FaTelegramPlane color="#0088cc" />{" "}
