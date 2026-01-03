@@ -4,11 +4,11 @@
     "title": "CRM для внутреннего учета автомойки",
     "description": "Небольшая и простенькая CRM для автомойки. Выполнена, как desktop-приложение (приложение на компьютер). Хранит услуги, сотрудников, записи клиентов. Позволяет хранить историю выполненных услуг, считает зарплату сотрудникам. У заказчика не было ТЗ, делал на свое усмотрение.",
     "images": [
-      "/assets/projects-photos/car-wash-crm/crm_1.png",
-      "/assets/projects-photos/car-wash-crm/crm_2.png",
-      "/assets/projects-photos/car-wash-crm/crm_3.png",
-      "/assets/projects-photos/car-wash-crm/crm_4.png",
-      "/assets/projects-photos/car-wash-crm/crm_5.png"
+      "/projects-photos/car-wash-crm/crm_1.png",
+      "/projects-photos/car-wash-crm/crm_2.png",
+      "/projects-photos/car-wash-crm/crm_3.png",
+      "/projects-photos/car-wash-crm/crm_4.png",
+      "/projects-photos/car-wash-crm/crm_5.png"
     ]
   },
   {
@@ -16,13 +16,13 @@
     "title": "Лендинг бота на базе ИИ для работы с инвестициями",
     "description": "Лендинг для telegram бота по предсказаниям движения активов на основе новостного фона бумаги на бирже. Выполнен, как web-страница (сайт). Позволяет записаться в число первых пользователей и найти ответы на необходимые вопросы. Дизайн делал сам в Photoshop для заказчика. После утверждения верстал саму страницу.",
     "images": [
-      "/assets/projects-photos/ai-invest-landing/landing_1.png",
-      "/assets/projects-photos/ai-invest-landing/landing_2.png",
-      "/assets/projects-photos/ai-invest-landing/landing_3.png",
-      "/assets/projects-photos/ai-invest-landing/landing_4.png",
-      "/assets/projects-photos/ai-invest-landing/landing_5.png",
-      "/assets/projects-photos/ai-invest-landing/landing_6.png",
-      "/assets/projects-photos/ai-invest-landing/landing_7.png"
+      "/projects-photos/ai-invest-landing/landing_1.png",
+      "/projects-photos/ai-invest-landing/landing_2.png",
+      "/projects-photos/ai-invest-landing/landing_3.png",
+      "/projects-photos/ai-invest-landing/landing_4.png",
+      "/projects-photos/ai-invest-landing/landing_5.png",
+      "/projects-photos/ai-invest-landing/landing_6.png",
+      "/projects-photos/ai-invest-landing/landing_7.png"
     ]
   },
   {
@@ -30,11 +30,11 @@
     "title": "Telegram-бот для помощи педагогам и родителям",
     "description": "Telegram-бот для детей с отклонениями речи. Заказчик - педагог детского сада. Бот является неким огромным сборником, который дает как ответы на вопросы, так и множество другой полезной развивающей информации, включая игры.",
     "images": [
-      "/assets/projects-photos/kids-speech-bot/speech_1.jpg",
-      "/assets/projects-photos/kids-speech-bot/speech_2.jpg",
-      "/assets/projects-photos/kids-speech-bot/speech_3.jpg",
-      "/assets/projects-photos/kids-speech-bot/speech_4.jpg",
-      "/assets/projects-photos/kids-speech-bot/speech_5.jpg"
+      "/projects-photos/kids-speech-bot/speech_1.jpg",
+      "/projects-photos/kids-speech-bot/speech_2.jpg",
+      "/projects-photos/kids-speech-bot/speech_3.jpg",
+      "/projects-photos/kids-speech-bot/speech_4.jpg",
+      "/projects-photos/kids-speech-bot/speech_5.jpg"
     ]
   }
 ]
