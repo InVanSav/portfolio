@@ -14,21 +14,21 @@ export function ProjectsPage() {
           <li className="contact-item">
             <FaTelegramPlane color="#0088cc" />{" "}
             <a href="https://t.me/Ivan_Savickij" target="_blank" rel="noopener noreferrer">
-              @Ivan_Savickij
+              Telegram личный
             </a>
           </li>
         
           <li className="contact-item">
             <FaWhatsapp color="#25D366" />{" "}
             <a href="https://wa.me/79958701830" target="_blank" rel="noopener noreferrer">
-              +7 995 870 1830
+              WhatsApp
             </a>
           </li>
 
           <li className="contact-item">
             <FaTelegramPlane color="#0088cc" />{" "}
             <a href="https://t.me/twenty_four_frames" target="_blank" rel="noopener noreferrer">
-              @twenty_four_frames
+              Telegram канал
             </a>
           </li>
         </ul>
