@@ -1,4 +1,4 @@
-portfolio.example.com {
+twenty-four-frames.ru {
     root * /srv/portfolio
     file_server
     encode gzip

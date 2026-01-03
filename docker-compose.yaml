@@ -1,18 +1,9 @@
+version: "3.8"
 services:
-  portfolio:
+  caddy:
     build: .
     container_name: portfolio
-    restart: unless-stopped
-    volumes:
-      - ./dist:/srv/portfolio
-
-  caddy:
-    image: caddy:alpine
-    container_name: caddy
     restart: unless-stopped
     ports:
       - "80:80"
       - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile
-      - ./dist:/srv/portfolio
