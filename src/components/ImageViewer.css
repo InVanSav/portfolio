@@ -43,7 +43,7 @@
 }
 
 /* 📱 мобилки */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .viewer__arrow {
     font-size: 36px;
   }
