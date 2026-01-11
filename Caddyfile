@@ -1,4 +1,4 @@
-lume-assist.ru {
+twenty-four-frames.ru {
     root * /srv/portfolio
     file_server
     encode gzip
