@@ -10,45 +10,45 @@
 
 .contacts-list {
   padding: 0;
-
   display: flex;
   gap: 12px;
+  list-style: none;
 }
 
 .contact-item {
+  flex: 1; /* Занимает равное пространство */
+}
+
+.contact-link {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
-
   padding: 14px 18px;
-  width: 100%;
-
+  height: 100%;
   border-radius: 14px;
   border: 1px solid rgba(0, 0, 0, 0.06);
-
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(6px);
-
   transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
     background 0.15s ease;
+  text-decoration: none;
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  box-sizing: border-box;
 }
 
-.contact-item:hover {
+.contact-link:hover {
   transform: translateY(-1px);
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
 }
 
-.contact-item a {
-  color: #111;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.contact-item svg {
+.contact-link svg {
   font-size: 18px;
   flex-shrink: 0;
 }
@@ -59,8 +59,10 @@
   }
 
   .contact-item {
-    width: inherit;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+  }
+
+  .contact-link {
+    width: 100%;
   }
 }

@@ -12,23 +12,38 @@ export function ProjectsPage() {
       <div className="contacts-block">
         <ul className="contacts-list">
           <li className="contact-item">
-            <FaTelegramPlane color="#0088cc" />{" "}
-            <a href="https://t.me/Ivan_Savickij" target="_blank" rel="noopener noreferrer">
-              Telegram личный
+            <a 
+              href="https://t.me/Ivan_Savickij" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              <FaTelegramPlane color="#0088cc" />
+              <span>Telegram личный</span>
             </a>
           </li>
         
           <li className="contact-item">
-            <FaWhatsapp color="#25D366" />{" "}
-            <a href="https://wa.me/79958701830" target="_blank" rel="noopener noreferrer">
-              WhatsApp
+            <a 
+              href="https://wa.me/79958701830" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              <FaWhatsapp color="#25D366" />
+              <span>WhatsApp</span>
             </a>
           </li>
 
           <li className="contact-item">
-            <FaTelegramPlane color="#0088cc" />{" "}
-            <a href="https://t.me/twenty_four_frames" target="_blank" rel="noopener noreferrer">
-              Telegram канал
+            <a 
+              href="https://t.me/twenty_four_frames" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              <FaTelegramPlane color="#0088cc" />
+              <span>Telegram канал</span>
             </a>
           </li>
         </ul>
